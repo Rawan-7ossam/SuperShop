@@ -104,7 +104,7 @@ export default function ProductCard({ product }: { product: Products }) {
               <span className="text-2xl font-bold">{product.price}</span>
             </div>
 
-            <div className="ms-auto absolute right-[-200px] top-[40px]  group-hover:right-[20px] transition-all duration-500">
+            <div className="ms-auto absolute right-[-200px] top-[40px]  md:group-hover:right-[20px] transition-all duration-500">
 
                <Button
                 onClick={() => handleAddProductToCart(product._id)}
