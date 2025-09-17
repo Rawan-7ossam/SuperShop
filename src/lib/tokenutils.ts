@@ -7,7 +7,7 @@ export async function getUserToken(){
 
     const encodeToken = 
     cookieStore.get("next-auth.session-token")?.value ||
-    cookieStore.get("_Secure-next-auth.session-token")?.value;
+    cookieStore.get("__Secure-next-auth.session-token")?.value;
 
         if(!encodeToken){
             return undefined;
