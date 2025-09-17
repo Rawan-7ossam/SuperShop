@@ -46,7 +46,8 @@ try {
     const response = await signIn("credentials" , {
         email:values.email,
         password:values.password,
-        redirect:false,
+        redirect:true,
+        callbackUrl:"/"
     })
     console.log(response);
     setBtnIsLoading(true)
