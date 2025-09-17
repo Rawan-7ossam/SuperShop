@@ -28,7 +28,7 @@ export default async function Home() {
     <div className="mt-20">
     
       <div className="flex flex-col lg:flex-row justify-center items-center ">
-      <div className="w-full lg:w-1/4 ms-10 text-center mt-5 ">
+      <div className="w-full lg:w-1/4 lg:ms-10 text-center mt-5 ">
           <p className="text-2xl lg:text-5xl font-semibold ">Discover a story that might change your day <span> <HeartHandshake className="inline text-red-500" size={40}/></span></p>
       </div>
        <MainSlider/>
